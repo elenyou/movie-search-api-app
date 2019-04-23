@@ -1,0 +1,83 @@
+body {
+  background: #c1bdba;
+  font-family: "Titillium Web", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+form {
+  background: rgba(19, 35, 47, 0.9);
+  padding: 40px;
+  width: 90%;
+  max-width: 600px ;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 40px auto;
+  width: 70%;
+  max-width: 600px;
+}
+
+li {
+  text-decoration: none;
+  padding: 10px 20px;
+  background: rgba(19, 35, 47, 0.9);
+  color: #ffffff;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(19, 35, 47);
+  font-weight: 300;
+  margin: 40px 0;
+}
+
+input {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  color: #ffffff;
+  border-radius: 0;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+input:focus {
+  outline: 0;
+  border-color: #1ab188;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  width: 30%;
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background: #1ab188;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+  margin: 3rem auto;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  background: #179b77;
+}

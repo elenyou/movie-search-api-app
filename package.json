@@ -1,0 +1,13 @@
+{
+  "name": "MovieApiApp",
+  "version": "1.0.0",
+  "description": "movieApiApp",
+  "main": "app.js",
+  "author": "Lena",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
